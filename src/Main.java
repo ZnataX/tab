@@ -27,12 +27,23 @@ public class Main {
 //            i++;
 //        }
 //        ------------------------------------------------------
-        int j = 0;
-        do {
-            System.out.println(j);
-            j++;
+//        int j = 0;
+//        do {
+//            System.out.println(j);
+//            j++;
+//        }
+//        while (j < 5);
+//        ---------------------------
+        for (int i = 0; i < 10; i++) {
+            if (i == 5){
+                int x;
+                x = i + 5;
+                System.out.println(x);
+                continue;
+            }
+            System.out.println(i);
         }
-        while (j < 5);
+
         }
 //        ---------------------------------
 //        for(int i = 0; i < tablica.length; i++){
