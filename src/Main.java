@@ -6,6 +6,7 @@ public class Main {
                 System.out.println("True");
             } else if (tablica[i] < 5){
                 System.out.println("False");}
+
             }
 
         }
